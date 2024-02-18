@@ -1,0 +1,102 @@
+{
+    "ResourceRecordSets": [
+        {
+            "Name": "kylesliva.me.",
+            "Type": "A",
+            "AliasTarget": {
+                "HostedZoneId": "Z2FDTNDATAQYW2",
+                "DNSName": "d3d874cdiuve6q.cloudfront.net.",
+                "EvaluateTargetHealth": false
+            }
+        },
+        {
+            "Name": "kylesliva.me.",
+            "Type": "AAAA",
+            "AliasTarget": {
+                "HostedZoneId": "Z2FDTNDATAQYW2",
+                "DNSName": "d3d874cdiuve6q.cloudfront.net.",
+                "EvaluateTargetHealth": false
+            }
+        },
+        {
+            "Name": "kylesliva.me.",
+            "Type": "CAA",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "0 issuewild \"amazon.com\""
+                },
+                {
+                    "Value": "0 issue \"amazon.com\""
+                }
+            ]
+        },
+        {
+            "Name": "kylesliva.me.",
+            "Type": "NS",
+            "TTL": 172800,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-15.awsdns-01.com."
+                },
+                {
+                    "Value": "ns-1540.awsdns-00.co.uk."
+                },
+                {
+                    "Value": "ns-738.awsdns-28.net."
+                },
+                {
+                    "Value": "ns-1342.awsdns-39.org."
+                }
+            ]
+        },
+        {
+            "Name": "kylesliva.me.",
+            "Type": "SOA",
+            "TTL": 900,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-15.awsdns-01.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ]
+        },
+        {
+            "Name": "_151e9ed2752c6da877e5e1c375bd344c.kylesliva.me.",
+            "Type": "CNAME",
+            "TTL": 60,
+            "ResourceRecords": [
+                {
+                    "Value": "_00368428d2c0cfdddebf8604ffa4f236.mhbtsbpdnt.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "minecraft.kylesliva.me.",
+            "Type": "A",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "3.142.139.68"
+                }
+            ]
+        },
+        {
+            "Name": "www.kylesliva.me.",
+            "Type": "A",
+            "AliasTarget": {
+                "HostedZoneId": "Z2FDTNDATAQYW2",
+                "DNSName": "d3d874cdiuve6q.cloudfront.net.",
+                "EvaluateTargetHealth": false
+            }
+        },
+        {
+            "Name": "www.kylesliva.me.",
+            "Type": "AAAA",
+            "AliasTarget": {
+                "HostedZoneId": "Z2FDTNDATAQYW2",
+                "DNSName": "d3d874cdiuve6q.cloudfront.net.",
+                "EvaluateTargetHealth": false
+            }
+        }
+    ]
+}
